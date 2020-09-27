@@ -11,9 +11,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged",
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "prepare-commit-msg": "exec < /dev/tty && git cz --hook || true"
+      "pre-commit": "lint-staged"
     }
   },
   "lint-staged": {
@@ -48,13 +46,15 @@
   },
   "dependencies": {
     "@next/bundle-analyzer": "^9.5.3",
+    "axios": "^0.20.0",
     "next": "9.5.3",
     "next-images": "^1.4.1",
     "next-seo": "^4.7.3",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "sass": "^1.26.10",
-    "styled-components": "^5.2.0"
+    "styled-components": "^5.2.0",
+    "swr": "^0.3.3"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.11.5",
