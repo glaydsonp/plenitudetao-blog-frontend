@@ -46,7 +46,7 @@
   },
   "dependencies": {
     "@next/bundle-analyzer": "^9.5.3",
-    "axios": "^0.20.0",
+    "axios": "^0.21.1",
     "next": "9.5.3",
     "next-images": "^1.4.1",
     "next-seo": "^4.7.3",
